@@ -1,0 +1,14 @@
+#loadingPage{
+  margin:auto;
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#loadingPage img{
+  margin: auto;
+  display: block;
+  width: 25vw;
+}

