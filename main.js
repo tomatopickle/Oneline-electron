@@ -1,20 +1,18 @@
-// Modules to control application life and create native browser window
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow} = require('electron');
 const path = require('path');
-console.log(__dirname);
-
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    // width: 800,
-    // height: 600,
+    width: 1000,
+    height: 1000,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     },
     backgroundColor: "#141417",
     fullscreenable:true,
-    icon: "http://oneline.abaanshanid.repl.co/assets/logos/logo.png"
+    icon: "./logo.png"
   });
+  mainWindow.removeMenu();
   mainWindow.loadFile('index.html');
 }
 

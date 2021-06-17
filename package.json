@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
+  "productName": "Oneline",
+  "author": "Abaan Shanid",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .  --no-sandbox"
+  },
+  "bugs": {
+    "url": "https://github.com/tomatopickle/Oneline-electron/issues",
+    "email": "abaanashanid@gmail.com"
   },
   "keywords": [],
-  "author": "",
+  "repository": "github:tomatopickle/Oneline-electron",
   "license": "ISC",
   "devDependencies": {
     "electron": "^11.4.8"
-  }
+  },
+  "dependencies": {}
 }
